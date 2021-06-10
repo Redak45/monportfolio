@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Brand new WebApp</title>  
+        <link rel="stylesheet" href="./css/style.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image" href="/img/logo.png" />
+    </head>
+    <body>
+        <header>   
+            <nav> 
+                <ul> 
+                <li> <a href="#"> <img src="./img/logo.png"> </a></li> 
+                <li> <a href="#apropos"> À propos </a></li> 
+                <li> <a href="#competence"> Compétences </a></li> 
+                <li> <a href="#portfolio"> Portfolio </a></li> 
+                <li> <a href="#contact"> Contact</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h1><span>Bonjour, </span> <br>Je suis Ali Saïd MOHAMADOU</h1>
+                    <h2 >Web Developpeur</h2>
+                </article>
+                <article>    
+                    <img src="./img/maphoto.png" alt="ma photo">
+                </article>
+                <a href="./img/CV.png" target="_blank">Télécharger mon CV</a>     
+            </section>
+            <section class="reveal">
+                <h2 id="apropos">À propos</h2>
+                <p>Bonjour je suis Ali Saïd Mohamadou étudiant en 1ère année de Master à ECV Digital Paris  dans la spécialité Développement web. Avant cela j’ai obtenu un Bachelor en chef de projet digital dans le même établissement. Depuis tout petit, j’ai toujours été intéressé par l’informatique. C’est durant la classe de terminale et plus précisément pendant les cours de ISN ( informatique et science du numérique) que je ma passion pour le développement web est née. En dehors des cours, j’améliore mes compétences en Front-End par des recherches personnels. Mon souhait le plus ardent est de travailler plus tard dans une agence de développement web..
+                </p>      
+            </section>  
+            <section>        
+                    <h2 id="competence" class="reveal">Mes Compétences</h2>     
+                    <article class="reveal">
+                        <div class="competence">
+                            <i class='bx bxl-html5 competence__icon'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="competence__bar competence__html"></div>
+                        </div>
+                        <div>
+                            <span>95%</span>
+                        </div>
+                    </article>
+                    <article class="reveal">
+                        <div class="competence">
+                            <i class='bx bxl-css3 competence__icon'></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="competence__bar  competence__css">   
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </article>
+                    <article class="reveal">
+                        <div class="competence">
+                            <i class='bx bxl-javascript competence__icon' ></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                        <div class="competence__bar competence__js">      
+                        </div>
+                        <div>
+                            <span>50%</span>
+                        </div>
+                    </article>
+                    <article class="reveal">
+                        <div class="competence">
+                            <i class='bx bxl-wordpress competence__icon'></i>
+                            <span>WORDPRESS</span>
+                        </div>
+                        <div class="competence__bar competence__wordpress">       
+                        </div>
+                        <div>
+                            <span>50%</span>
+                        </div>
+                    </article>
+                    <article class="reveal">
+                        <div class="competence">
+                            <span>PHP</span>
+                        </div>
+                        <div class="competence__bar competence__php">       
+                        </div>
+                        <div>
+                            <span>40%</span>
+                        </div>
+                    </article>  
+            </section>
+            </section>    
+                <section>
+                    <h2 id="portfolio" class="reveal"> Portfolio</h2>                  
+                    <article class="reveal"> 
+                        <img src="./img/lardoisienne.png">
+                        <h3>L'ardoisienne</h3>
+                        <p> Spécialisée dans la fabrication d’ardoises sur-mesure</p>
+                        <a href="https://lardoisienne.fr/" target="_blank">Visiter le site</a> 
+                        <button id="btnPopup">Voir plus</button>
+                        <div id="overlay" class="overlay">
+                            <div id="popup" class="popup">
+                                <h2>L'ardoisienne
+                                <span id="btnClose" class="btnClose">&times;</span>
+                                </h2>
+                                <p>
+                                  L’ardoisienne est une agence spécialisée dans la fabrication d’ardoises sur-mesure. L’objectif est de conseiller les ardoises pour que celles-ci soient à l’image des restaurants et valorisent leurs décorations. L’objectif étais de faire la refonte du site web en le rendant plus moderne. Le travail s’est fait en solo.
+                                </p>
+                                <h4>Refonte du site</h4>
+                                <h4> WordPress</h4>
+                                <h4> SEO​</h4>
+                                <h4> Site E-commerce</h4>
+                                <h4> Responsive</h4>
+                                <h4> Télé-travail</h4>
+                            </div>
+                        </div>   
+                    </article>
+                    <article class="reveal">
+                        <img src="./img/edd.png">
+                        <h3>Espoir de demain</h3>
+                        <p>Agence de sponsoring sportif</p>
+                        <a href="https://espoirsdedemain.com/" target="_blank">Visiter le site</a>  
+                        <button id="btnPopup">Voir plus</button>
+                        <div id="overlay" class="overlay">
+                            <div id="popup" class="popup">
+                                <h2>Stage (juillet 2019 / août 2019 )
+                                <span id="btnClose" class="btnClose"></span>
+                                </h2>
+                                <div>
+                                    Espoirs de demain est une agence de sponsoring sportive dont la vocation est de soutenir les jeunes athlètes prometteurs, futurs stars de demain ! Grâce au site web, on peut être au courant de tout le savoir faire de l’entreprise ainsi que les différents services mis en place pour aider au maximum les jeunes sportifs. Le travail s’est fait en solo.
+                                </div>
+                            </div>                   
+                    </article>
+                    <article class="reveal">
+                        <img src="./img/offishall.png">
+                        <h3>Offishall</h3>
+                        <p>Entreprise de conseil et d’édition de logiciels</p>
+                        <a href="#">Visiter le site</a>
+                        <button id="btnPopup">Voir plus</button>
+                        <div id="overlay" class="overlay">
+                        <div id="popup" class="popup">
+                        <h2>L'ardoisienne
+                        <span id="btnClose" class="btnClose"></span>
+                        </h2>
+                        <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a nulla 
+                        a massa interdum imperdiet sed nec nibh. Proin porttitor euismod nulla ut 
+                        interdum. Cras elementum placerat aliquam.
+                        </div>
+                        </div>    
+                    </article>
+                    <article class="reveal">
+                        <ul>
+                        <img src="./img/tcpc.png">
+                        <h3>Tennis club paris centre</h3>
+                        <p>Club de tennis</p>
+                        <a href="https://tennis-club-paris-centre.com/" target="_blank">Visiter le site</a> 
+                        <button id="btnPopup">Voir plus</button>
+                        <div id="overlay" class="overlay">
+                        <div id="popup" class="popup">
+                        <h2>L'ardoisienne
+                        <span id="btnClose" class="btnClose"></span>
+                        </h2>
+                        <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a nulla 
+                        a massa interdum imperdiet sed nec nibh. Proin porttitor euismod nulla ut 
+                        interdum. Cras elementum placerat aliquam.
+                        </div>
+                        </div>   
+                        </ul>
+                    </article>
+                </section>
+            </section>
+            <section class="reveal">
+                <h2 id="contact" class="reveal">Contactez-moi</h2>
+                    <form action="#">
+                        <label id="labelEmail"> Votre email  <span> </span> </label>
+                        <input type="email" placeholder="Obligatoire">
+
+                        <label id="labelSubject"> Sujet </label>
+                        <input type="text" placeholder="5 caratères minimum">
+                        
+                        <label id="labelCommentary"> Votre message</label>
+                        <textarea name="comment" placeholder="Obligatoire"> </textarea>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                    <p>Vous pouvez aussi me contacter par téléphone au <a href="tel:0603674881">   06 03 67 48 81 </a></p>
+                </section>
+        </main>
+        <footer>
+            <p>© 2021 - Ali Saïd</p>
+        </footer>
+        <script src="./js/main.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
+</html>
